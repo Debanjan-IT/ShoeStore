@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shoe Selling Website</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="shopperLogin.html">Shopper Portal</a>
+        <a href="sellerLogin.html">Seller Portal</a>
+    </div>
+    <div class="home">
+        <h1 class="title">Shoe Selling Website</h1>
+        <h2>Shopper Register Page</h2>
+        <form action="spRegister.php" method="post">
+            <input class="input" type="text" name="name" placeholder="Enter Fullname." required>
+            <input class="input" type="text" name="username" placeholder="Enter Username." required>
+            <input class="input" type="password" name="password" placeholder="Enter Password." required><br>
+            <input class="input" type="password" name="cpassword" placeholder="Enter Confirm Password." required><br>
+            <input class="button" type="submit" value="REGISTER">
+        </form>
+        <h3>Already Registered? <a href="shopperLogin.html">Click Here...</a></h3>
+    </div>
+</body>
+</html>
